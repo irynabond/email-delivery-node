@@ -13,16 +13,10 @@ var message = {
     "from_email": "mail@irynabond.space",
     "from_name": "Iryna Bondarenko",
     "to": [{
-            "email": "irusiabondarenko@gmail.com",
+            "email": "ADD YOUR EMAIL HERE",
             "name": "Iryna",
             "type": "to"
-        },
-        {
-            "email": "iryna.bond5@gmail.com",
-            "name": "Iryna",
-            "type": "to"
-        }
-
+        }       
      ],
     "headers": {
         "Reply-To": "mail@irynabond.space"
