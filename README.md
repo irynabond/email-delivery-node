@@ -5,19 +5,20 @@ I used node.js to set up email delivery to multiple email addresses.
 Steps done:
 * Created new domain name using NAMECHEAP.COM website. My domain is @irynabond.space. 
 * Integrated with gmail.com for email receiving. 
-* Created account on MANDRILLAPP.COM in order to get API key for sending messages. Added new domain and set up DNS and DKIM values, verified domain.
+* Created account on MANDRILLAPP.COM in order to get API key for sending emails. Added new domain and set up SPF and DKIM values, verified domain.
 * Recieved API key. 
 * Written script file (index.js) and connected to mandrill using api key.
-* Created a test template (sample of dolly email) on MAILCHIMP.COM
+* Created a test template (possible sample of dolly email) on MAILCHIMP.COM
 * Sent the template to mandrill.
 * Added template name to index.js file. In my case : "dollydolly"
+* Now I can add multiple e-mail addresses from database.
  
 ###Try it yourself steps:
 
 You need node.js to be installed to run this example
 
 #####Download or clone this repo
-Use git clone https://github.com/irynabond/email-delivery-node.git
+Use 'git clone https://github.com/irynabond/email-delivery-node.git'
 
 ####Open Command Propmt or Terminal in folder path
 run command 'npm install' to get essential packages
