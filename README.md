@@ -30,4 +30,5 @@ Use 'node index.js' command (for command prompt)
 
 #### Open your email
 You are going to see new letter in your inbox! It should look like this
-https://s31.postimg.org/t699dyw3f/email.png
+![alt text](https://s31.postimg.org/t699dyw3f/email.png "Email")
+
