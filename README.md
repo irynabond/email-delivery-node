@@ -3,7 +3,7 @@
 ###How it works:
 I used node.js to set up email delivery to multiple email addresses. 
 Steps done:
-* Created new domain name using NAMECHEAP.COM website. My domain is @irynabond.space. 
+* Created a new domain name using NAMECHEAP.COM website. My domain is @irynabond.space. 
 * Integrated with gmail.com for email receiving. 
 * Created account on MANDRILLAPP.COM in order to get API key for sending emails. Added new domain and set up SPF and DKIM values, verified domain.
 * Recieved API key. 
