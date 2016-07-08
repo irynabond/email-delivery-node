@@ -30,6 +30,6 @@ Edit line 16. Add your own email address. You can add multiple emails (objects) 
 Use 'node index.js' command (for command prompt)
 
 #### Open your email
-You are going to see new letter in your inbox! It should look like this
+You are going to see a new letter in your inbox! It should look like this
 ![alt text](https://s31.postimg.org/t699dyw3f/email.png "Email")
 
