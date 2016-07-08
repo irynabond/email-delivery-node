@@ -13,7 +13,7 @@ var message = {
     "from_email": "mail@irynabond.space",
     "from_name": "Iryna Bondarenko",
     "to": [{
-            "email": "ADD YOUR EMAIL HERE",
+            "email": "ADD YOUR EMAIL HERE", // ADD YOUR EMAIL HERE// ADD YOUR EMAIL HERE
             "name": "Iryna",
             "type": "to"
         }       
