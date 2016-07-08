@@ -1,10 +1,15 @@
 var mandrill = require('mandrill-api/mandrill');
 var mandrill_client = new mandrill.Mandrill('K49M-9bS1JeLzhkRpWpisQ');
+var template_name = "dollydolly";
+var template_content = [{
+        "name": "Hello from DOLLY",
+        "content": "take 15% off"
+    }];
 
 var message = {
-    "html": "<p>Example HTML content</p>",
-    "text": "Example text content",
-    "subject": "example subject",
+    "html": "<h1>Hello from DOLLY!</h1>",
+    "text": "Hello DOLLY",
+    "subject": "Are you going to move? DOLLY is here fo you",
     "from_email": "mail@irynabond.space",
     "from_name": "Iryna Bondarenko",
     "to": [{
@@ -40,7 +45,7 @@ var message = {
 var async = false;
 var ip_pool = "Main Pool";
 var send_at = "2016-07-07";
-mandrill_client.messages.send({"message": message, "async": async, "ip_pool": ip_pool, "send_at": send_at}, function(result) {
+mandrill_client.messages.sendTemplate({"template_name": template_name, "template_content": template_content, "message": message, "async": async, "ip_pool": ip_pool, "send_at": send_at}, function(result) {
     console.log(result);
    
 }, function(e) {
