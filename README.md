@@ -3,15 +3,15 @@
 ###How it works:
 I used node.js to set up email delivery to multiple email addresses. 
 Steps done:
-1. Created new domain name using NAMECHEAP.COM website. My domain is @irynabond.space. 
-2. Integrated with gmail.com for email receiving. 
-3. Created account on MANDRILLAPP.COM in order to get API key for sending messages. Added new domain and set up DNS and DKIM values, verified domain.
-3. Got API key. 
-4. Written script file (index.js) and connected to mandrill using api key.
-5. Created a test template (sample of dolly email) on MAILCHIMP.COM
-6. Sent the templete to mandrill.
-7. Added template name to index.js file. In my case : "dollydolly"
-8. 
+* Created new domain name using NAMECHEAP.COM website. My domain is @irynabond.space. 
+* Integrated with gmail.com for email receiving. 
+* Created account on MANDRILLAPP.COM in order to get API key for sending messages. Added new domain and set up DNS and DKIM values, verified domain.
+* Got API key. 
+* Written script file (index.js) and connected to mandrill using api key.
+* Created a test template (sample of dolly email) on MAILCHIMP.COM
+* Sent the templete to mandrill.
+* Added template name to index.js file. In my case : "dollydolly"
+ 
 ###Try it yourself steps:
 
 You need node.js to be installed to run this example
