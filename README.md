@@ -9,7 +9,7 @@ Steps done:
 * Recieved API key. 
 * Written script file (index.js) and connected to mandrill using api key.
 * Created a test template (sample of dolly email) on MAILCHIMP.COM
-* Sent the templete to mandrill.
+* Sent the template to mandrill.
 * Added template name to index.js file. In my case : "dollydolly"
  
 ###Try it yourself steps:
